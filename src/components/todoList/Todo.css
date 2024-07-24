@@ -1,0 +1,32 @@
+.todo{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.task-item{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.task-item button{
+    margin-left: auto;
+}
+
+.error{
+    font-size: .9em;
+    color: red;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+.filter button{
+    background-color: rgb(255, 193, 193);
+}
+
+.filter .current{
+    background-color: dodgerblue;
+}
